@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: contents !important; 
+}
+
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 4px solid #333;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    border-bottom: 4px solid #04AA6D;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul {
+        visibility: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width: 50%;
+        height: 100vh;
+      }
+      
+      li {
+      float: none !important;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-left: 4px solid #333;
+        border-bottom:none !important;
+       
+      }
+      
+      li a:hover {
+        background-color: #111;
+        border-left: 4px solid #04AA6D;
+       
+      }
+    
+  }
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a class="active" href="#about">About</a></li>
+</ul>
